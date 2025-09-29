@@ -1,4 +1,4 @@
-import { books } from "@/lib/book";
+import { books } from "@/lib/books";
 import BookCard from "@/components/bookCard";
 
 export default function LibraryPage() {

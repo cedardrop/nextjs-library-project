@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Book } from "@/lib/book";
+import { Book } from "@/lib/books";
 
 export default function BookCard({book}: {book: Book}) {
   return (
