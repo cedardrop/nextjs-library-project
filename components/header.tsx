@@ -1,10 +1,13 @@
+import Link from "next/link";
+
 export default function Header() {
   return (
     <header style={{padding: '1rem', backgroundColor: '#20232a', color: 'white'}}>
       <h1>My Library</h1>
       <nav>
-        <a href="/" style ={{marginRight: '1rem', color: '#61dafb'}}> Home </a>
-        <a href="/about" style={{color: "#61dafb"}}>About</a>
+        <Link href="/" style={{marginRight: "1rem"}}> Home </Link>
+        <Link href="/about" style={{marginRight: "1rem"}}> About </Link>
+        <Link href="/library"> Library </Link>
       </nav>
       </header>
   );
